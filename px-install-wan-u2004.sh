@@ -25,7 +25,7 @@ sudo cp remove-route /etc/ppp/ip-down.d/99-remove-route-p
 sudo chmod +x /etc/ppp/ip-up.d/99-add-route-p
 sudo chmod +x /etc/ppp/ip-down.d/99-remove-route-p
 sudo chmod +x /etc/ppp/ipv6-up.d/99-add-route-p6
-curl -SL -o eager-proxy.service https://cdn.discordapp.com/attachments/1109741145807925281/1120603145152770048/eager-proxy-ubuntu.service
+curl -SL -o eager-proxy.service https://github.com/trumreup98/zip/raw/main/eager-proxy-ubuntu.service
 sudo cp eager-proxy.service /etc/systemd/system/eager-proxy.service
 sudo systemctl enable eager-proxy.service
 rm remove-route
